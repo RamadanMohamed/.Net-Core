@@ -1,0 +1,26 @@
+﻿
+
+
+@model Student
+@{
+    ViewData["Title"] = "crate";
+}
+
+<h1>crate</h1>
+ 
+<form asp-action="Create">
+    <input asp-for="name" type="text" />
+    <span asp-validation-for="name"></span>
+    <input asp-for="Age" type="text" />
+    <span asp-validation-for="Age"></span>
+    <select asp-for="deptid"asp-items="ViewBag.depts"></select>
+    <input asp-for="deptid"type="text" />
+    <span asp-validation-for="deptid"></span>
+    <input type="submit" value="Add">
+    
+</form>
+
+
+
+
+

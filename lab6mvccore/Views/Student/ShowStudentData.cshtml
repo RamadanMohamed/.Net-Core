@@ -1,0 +1,17 @@
+﻿@model Student
+
+@{
+    ViewData["Title"] = "ShowStudentData";
+}
+
+<h1>ShowStudentData</h1>
+
+
+@using (Html.BeginForm())
+{
+    <label>Name</label>
+    <input type="text" value="@Model.name" disabled />
+    <br />
+    <label>Age</label>
+    <input type="text" value="@Model.Age" disabled />
+}

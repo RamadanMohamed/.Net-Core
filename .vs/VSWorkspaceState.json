@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\lab6mvccore",
+    "\\lab6mvccore\\Controllers",
+    "\\lab6mvccore\\Models",
+    "\\lab6mvccore\\services",
+    "\\lab6mvccore\\Views",
+    "\\lab6mvccore\\Views\\StudentController1"
+  ],
+  "SelectedNode": "\\lab6mvccore\\services\\StudentData.cs",
+  "PreviewInSolutionExplorer": false
+}

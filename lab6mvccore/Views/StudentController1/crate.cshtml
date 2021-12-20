@@ -1,0 +1,14 @@
+﻿@model Student
+@{
+    ViewData["Title"] = "crate";
+}
+
+<h1>crate</h1>
+@using (Html.BeginForm())
+{
+    @Html.TextBoxFor(a => a.id)
+    @Html.TextBoxFor(a => a.name)
+    @Html.TextBoxFor(a => a.Age)
+    <input type="submit" value="Add"/>
+}
+
